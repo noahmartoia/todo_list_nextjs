@@ -1,15 +1,44 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
   align-items: center;
-  padding: 6rem;
+  padding: 2rem;
   min-height: 100vh;
 }
+.darkred{
+  color:darkred;
+}
 
+.big{
+  font-size: 3rem;
+}
+.blue{
+  color:deepskyblue;
+}
+.contact{
+  background: deepskyblue;
+  color: white;
+  border-radius: 0.5rem;
+  position: absolute;
+  left: 2.5rem;
+  padding: 0.8rem;
+}
+.margin{
+  margin: 3rem;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+}
+.border_radius{
+  border-radius: 20rem;
+  margin-right: 10rem;
+}
 .description {
   display: inherit;
-  justify-content: inherit;
+  justify-content: space-between;
   align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
@@ -42,8 +71,8 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
-  max-width: 100%;
-  width: var(--max-width);
+  max-width: var(--max-width);
+  width: 100%;
 }
 
 .card {
@@ -70,7 +99,6 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
-  text-wrap: balance;
 }
 
 .center {
